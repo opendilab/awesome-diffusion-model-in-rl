@@ -7,7 +7,7 @@ Welcome to follow and star!
 
 ## Table of Contents
 
-- [A Taxonomy of DT Algorithms](#a-taxonomy-of-model-based-rl-algorithms)
+- [A Taxonomy of Diffusion Model in RL Algorithms](#a-taxonomy-of-diffusion-rl-algorithms)
 - [Papers](#papers)
 
   - [Arxiv](#arxiv)
