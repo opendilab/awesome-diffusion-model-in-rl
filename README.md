@@ -11,7 +11,9 @@ Welcome to follow and star!
 - [Papers](#papers)
 
   - [Arxiv](#arxiv)
-  - [ICML 2022](#icml-2022) (**<font color="red">New!!!</font>**) 
+  - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**) 
+  - [Neurips 2022](#neurips-2022)
+  - [ICML 2022](#icml-2022)
 - [Contributing](#contributing)
 
 ## Overview of Diffusion Model in RL
@@ -45,8 +47,27 @@ format:
 
 ### Arxiv
 
+- [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2302.01877)
+  - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
+  - Key: Planning, Generalizability
+  - ExpEnv: Maze2D, MuJoCo, KUKA Robot
+
+
+### ICLR 2023
+
+- [Imitating Human Behaviour with Diffusion Models](https://arxiv.org/abs/2301.10677)
+  - Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin
+  - Publisher: ICLR 2023
+  - Key: Offline RL, Policy Optimization, Imitation Learning
+  - ExpEnv: Claw, Kitchen, CSGO
+
+
+
+### Neurips 2022
+
 - [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/abs/2208.06193)
   - Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
+  - Publisher:  Neurips Deep RL Workshop 2022
   - Key: Offline RL, Policy Optimization
   - Code: [official](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl), [unofficial](https://github.com/twitter/diffusion-rl)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
