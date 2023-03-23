@@ -55,6 +55,14 @@ format:
 
 ### ICLR 2023
 
+- [Is Conditional Generative Modeling all you need for Decision-Making?](https://arxiv.org/abs/2211.15657)
+  - Anurag Ajay, Yilun Du, Abhi Gupta, Joshua Tenenbaum, Tommi Jaakkola, Pulkit Agrawal
+  - Publisher: ICLR 2023
+  - Key: Offline RL, Generative Model, Policy Optimization
+  - Code: [official](https://github.com/anuragajay/decision-diffuser/tree/main/code)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+
 - [Imitating Human Behaviour with Diffusion Models](https://arxiv.org/abs/2301.10677)
   - Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin
   - Publisher: ICLR 2023
