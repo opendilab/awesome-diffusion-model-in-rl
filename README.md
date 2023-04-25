@@ -12,6 +12,7 @@ Welcome to follow and star!
 
   - [Arxiv](#arxiv)
   - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**) 
+  - [ICRA 2023](#icra-2023)
   - [Neurips 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
 - [Contributing](#contributing)
@@ -47,6 +48,12 @@ format:
 
 ### Arxiv
 
+- [Diffusion-based Generation, Optimization, and Planning in 3D Scenes](https://arxiv.org/abs/2301.06015)
+  - Siyuan Huang, Zan Wang, Puhao Li, Baoxiong Jia, Tengyu Liu, Yixin Zhu, Wei Liang, Song-Chun Zhu
+  - Key: 3D Scene Understanding, Optimization, Planning
+  - Code: [official](https://github.com/scenediffuser/Scene-Diffuser)
+  - ExpEnv: [ScanNet](http://www.scan-net.org/), [MultiDex](https://github.com/tengyu-liu/GenDexGrasp), [PROX](https://prox.is.tue.mpg.de/index.html)
+
 - [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2302.01877)
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Planning, Generalizability
@@ -69,7 +76,13 @@ format:
   - Key: Offline RL, Policy Optimization, Imitation Learning
   - ExpEnv: Claw, Kitchen, CSGO
 
+### ICRA 2023
 
+- [Guided Conditional Diffusion for Controllable Traffic Simulation](https://arxiv.org/abs/2210.17366)
+  - Ziyuan Zhong, Davis Rempe, Danfei Xu, Yuxiao Chen, Sushant Veer, Tong Che, Baishakhi Ray, Marco Pavone
+  - Publisher: ICRA 2023
+  - Key: Traffic Simulation, Multi-Agent 
+  - ExpEnv: [nuScenes](https://github.com/nutonomy/nuscenes-devkit)
 
 ### Neurips 2022
 
