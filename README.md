@@ -11,7 +11,8 @@ Welcome to follow and star!
 - [Papers](#papers)
 
   - [Arxiv](#arxiv)
-  - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**) 
+  - [ICML 2023](#icml-2023)(**<font color="red">New!!!</font>**) 
+  - [ICLR 2023](#iclr-2023)
   - [ICRA 2023](#icra-2023)
   - [Neurips 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
@@ -24,7 +25,6 @@ The Diffusion Model in RL was introduced by “Planning with Diffusion for Flexi
 ![image info](./diffuser.png)
 
 There is another way:  "Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning" by Wang, Z. proposed Diffusion Model as policy-optimization in offline RL, et al. Specifically, Diffusion-QL forms policy as a conditional diffusion model with states as the condition from the offline policy-optimization perspective.
-
 
 ![image info](./diffusion.png)
 
@@ -54,11 +54,24 @@ format:
   - Code: [official](https://github.com/scenediffuser/Scene-Diffuser)
   - ExpEnv: [ScanNet](http://www.scan-net.org/), [MultiDex](https://github.com/tengyu-liu/GenDexGrasp), [PROX](https://prox.is.tue.mpg.de/index.html)
 
-- [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2302.01877)
-  - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
+- [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2304.02532)
+  - Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
   - Key: Planning, Generalizability
   - ExpEnv: Maze2D, MuJoCo, KUKA Robot
 
+- [Goal-Conditioned Imitation Learning using Score-based Diffusion Policies](https://arxiv.org/abs/2302.01877)
+  - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
+  - Key: Goal-Conditioned Imitation Learning, Robotics
+  - ExpEnv: CALVIN, Block-Push, Relay Kitchen
+
+### ICML 2023
+
+- [Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning](https://arxiv.org/abs/2304.12824)
+  - Cheng Lu1, Huayu Chen1, Jianfei Chen, Hang Su, Chongxuan Li, Jun Zhu
+  - Publisher:  ICML 2022 (long talk)
+  - Key: Offline RL, Constrained Policy Optimization
+  - Code: [official](https://github.com/ChenDRAG/CEP-energy-guided-diffusion)
+  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### ICLR 2023
 
@@ -69,19 +82,25 @@ format:
   - Code: [official](https://github.com/anuragajay/decision-diffuser/tree/main/code)
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
-
 - [Imitating Human Behaviour with Diffusion Models](https://arxiv.org/abs/2301.10677)
   - Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin
   - Publisher: ICLR 2023
   - Key: Offline RL, Policy Optimization, Imitation Learning
   - ExpEnv: Claw, Kitchen, CSGO
 
+- [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/abs/2209.14548)
+  - Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu
+  - Publisher: ICLR 2023
+  - Key: Offline RL, Generative models
+  - Code: [official](https://github.com/ChenDRAG/SfBC)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
 ### ICRA 2023
 
 - [Guided Conditional Diffusion for Controllable Traffic Simulation](https://arxiv.org/abs/2210.17366)
   - Ziyuan Zhong, Davis Rempe, Danfei Xu, Yuxiao Chen, Sushant Veer, Tong Che, Baishakhi Ray, Marco Pavone
   - Publisher: ICRA 2023
-  - Key: Traffic Simulation, Multi-Agent 
+  - Key: Traffic Simulation, Multi-Agent
   - ExpEnv: [nuScenes](https://github.com/nutonomy/nuscenes-devkit)
 
 ### Neurips 2022
