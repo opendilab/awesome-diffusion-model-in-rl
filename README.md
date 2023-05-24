@@ -48,6 +48,11 @@ format:
 
 ### Arxiv
 
+- [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137)
+  - Cheng Chi, Siyuan Feng, Yilun Du, Zhenjia Xu, Eric Cousineau, Benjamin Burchfiel, Shuran Song
+  - Key: Robot Manipulation
+  - ExpEnv: Robomimic, Push-T, Multimodal Block Pushing, Franka Kitchen
+
 - [Diffusion-based Generation, Optimization, and Planning in 3D Scenes](https://arxiv.org/abs/2301.06015)
   - Siyuan Huang, Zan Wang, Puhao Li, Baoxiong Jia, Tengyu Liu, Yixin Zhu, Wei Liang, Song-Chun Zhu
   - Key: 3D Scene Understanding, Optimization, Planning
