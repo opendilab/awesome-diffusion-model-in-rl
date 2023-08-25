@@ -48,6 +48,11 @@ format:
 
 ### Arxiv
 
+- [MADiff: Offline Multi-agent Learning with Diffusion Models](https://arxiv.org/abs/2305.17330)
+  - Zhengbang Zhu, Minghuan Liu, Liyuan Mao, Bingyi Kang, Minkai Xu, Yong Yu, Stefano Ermon, Weinan Zhang
+  - Key: Multi-agent, Offline RL
+  - ExpEnv: MPE, SMAC, Multi-Agent Trajectory Prediction (MATP)
+
 - [Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning](https://arxiv.org/abs/2307.04726)
   - Suzan Ece Ada, Erhan Oztop, Emre Ugur
   - Key: Offline RL, OOD Generalization
