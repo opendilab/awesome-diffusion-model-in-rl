@@ -7,16 +7,19 @@ Welcome to follow and star!
 
 ## Table of Contents
 
-- [A Taxonomy of Diffusion Model in RL Algorithms](#a-taxonomy-of-diffusion-rl-algorithms)
-- [Papers](#papers)
-
-  - [Arxiv](#arxiv)
-  - [ICML 2023](#icml-2023)(**<font color="red">New!!!</font>**) 
-  - [ICLR 2023](#iclr-2023)
-  - [ICRA 2023](#icra-2023)
-  - [Neurips 2022](#neurips-2022)
-  - [ICML 2022](#icml-2022)
-- [Contributing](#contributing)
+- [Awesome Diffusion Model in RL](#awesome-diffusion-model-in-rl)
+  - [Table of Contents](#table-of-contents)
+  - [Overview of Diffusion Model in RL](#overview-of-diffusion-model-in-rl)
+    - [Advantage](#advantage)
+  - [Papers](#papers)
+    - [Arxiv](#arxiv)
+    - [ICML 2023](#icml-2023)
+    - [ICLR 2023](#iclr-2023)
+    - [ICRA 2023](#icra-2023)
+    - [Neurips 2022](#neurips-2022)
+    - [ICML 2022](#icml-2022)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Overview of Diffusion Model in RL
 
@@ -81,9 +84,29 @@ format:
 
 ### ICML 2023
 
+- [Optimizing DDPM Sampling with Shortcut Fine-Tuning](https://arxiv.org/abs/2301.13362)
+  - Ying Fan, Kangwook Lee
+  - Publisher: ICML 2023
+  - Key: Training Diffusion with RL, Online RL, Sampling Optimization
+  - Code: [official](https://github.com/UW-Madison-Lee-Lab/SFT-PG)
+  - ExpEnv: CIFAR10, CelebA
+
+- [MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL](https://arxiv.org/abs/2305.19923)
+  - Fei Ni, Jianye Hao, Yao Mu, Yifu Yuan, Yan Zheng, Bin Wang, Zhixuan Liang
+  - Publisher: ICML 2023
+  - Key: Offline meta-RL, Conditional Trajectory Generation, Generalization
+  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py)
+
+- [Hierarchical diffusion for offline decision making](https://proceedings.mlr.press/v202/li23ad.html)
+  - Wenhao Li, Xiangfeng Wang, Bo Jin, Hongyuan Zha
+  - Publisher: ICML 2023
+  - Key: Hierarchical Offline RL, Long Horizon Task
+  - Code: [official](https://github.com/ewanlee/HDMI)
+  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
+
 - [Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning](https://arxiv.org/abs/2304.12824)
   - Cheng Lu, Huayu Chen, Jianfei Chen, Hang Su, Chongxuan Li, Jun Zhu
-  - Publisher:  ICML 2022 (long talk)
+  - Publisher: ICML 2023
   - Key: Offline RL, Constrained Policy Optimization
   - Code: [official](https://github.com/ChenDRAG/CEP-energy-guided-diffusion)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
