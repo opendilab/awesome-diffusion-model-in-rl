@@ -16,7 +16,7 @@ Welcome to follow and star!
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
     - [ICRA 2023](#icra-2023)
-    - [Neurips 2022](#neurips-2022)
+    - [NeurIPS 2022](#neurips-2022)
     - [ICML 2022](#icml-2022)
   - [Contributing](#contributing)
   - [License](#license)
@@ -53,7 +53,7 @@ format:
 
 - [MADiff: Offline Multi-agent Learning with Diffusion Models](https://arxiv.org/abs/2305.17330)
   - Zhengbang Zhu, Minghuan Liu, Liyuan Mao, Bingyi Kang, Minkai Xu, Yong Yu, Stefano Ermon, Weinan Zhang
-  - Key: Multi-agent, Offline RL
+  - Key: Multi-agent, Offline RL, Classifier-free
   - ExpEnv: MPE, SMAC, Multi-Agent Trajectory Prediction (MATP)
 
 - [Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning](https://arxiv.org/abs/2307.04726)
@@ -74,12 +74,12 @@ format:
 
 - [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2304.02532)
   - Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
-  - Key: Planning, Generalizability
+  - Key: Planning, Generalizability, Classifier-guided
   - ExpEnv: Maze2D, MuJoCo, KUKA Robot
 
 - [Goal-Conditioned Imitation Learning using Score-based Diffusion Policies](https://arxiv.org/abs/2302.01877)
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
-  - Key: Goal-Conditioned Imitation Learning, Robotics
+  - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
 ### ICML 2023
@@ -94,36 +94,36 @@ format:
 - [MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL](https://arxiv.org/abs/2305.19923)
   - Fei Ni, Jianye Hao, Yao Mu, Yifu Yuan, Yan Zheng, Bin Wang, Zhixuan Liang
   - Publisher: ICML 2023
-  - Key: Offline meta-RL, Conditional Trajectory Generation, Generalization
-  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py)
+  - Key: Offline meta-RL, Conditional Trajectory Generation, Generalization, Classifier-guided
+  - ExpEnv: [MuJoCo](https://github.com/openai/mujoco-py)
 
 - [Hierarchical diffusion for offline decision making](https://proceedings.mlr.press/v202/li23ad.html)
   - Wenhao Li, Xiangfeng Wang, Bo Jin, Hongyuan Zha
   - Publisher: ICML 2023
-  - Key: Hierarchical Offline RL, Long Horizon Task
+  - Key: Hierarchical Offline RL, Long Horizon Task, Classifier-free
   - Code: [official](https://github.com/ewanlee/HDMI)
-  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
+  - ExpEnv: [MuJoCo](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl), [NeoRL](https://github.com/polixir/NeoRL)
 
 - [Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning](https://arxiv.org/abs/2304.12824)
   - Cheng Lu, Huayu Chen, Jianfei Chen, Hang Su, Chongxuan Li, Jun Zhu
   - Publisher: ICML 2023
-  - Key: Offline RL, Constrained Policy Optimization
+  - Key: Offline RL, Constrained Policy Optimization, Classifier-guided
   - Code: [official](https://github.com/ChenDRAG/CEP-energy-guided-diffusion)
-  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
+  - ExpEnv: [MuJoCo](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### ICLR 2023
 
 - [Is Conditional Generative Modeling all you need for Decision-Making?](https://arxiv.org/abs/2211.15657)
   - Anurag Ajay, Yilun Du, Abhi Gupta, Joshua Tenenbaum, Tommi Jaakkola, Pulkit Agrawal
   - Publisher: ICLR 2023
-  - Key: Offline RL, Generative Model, Policy Optimization
+  - Key: Offline RL, Generative Model, Policy Optimization, Classifier-free
   - Code: [official](https://github.com/anuragajay/decision-diffuser/tree/main/code)
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
 - [Imitating Human Behaviour with Diffusion Models](https://arxiv.org/abs/2301.10677)
   - Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin
   - Publisher: ICLR 2023
-  - Key: Offline RL, Policy Optimization, Imitation Learning
+  - Key: Offline RL, Policy Optimization, Imitation Learning, Classifier-free
   - ExpEnv: Claw, Kitchen, CSGO
 
 - [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/abs/2209.14548)
@@ -138,14 +138,14 @@ format:
 - [Guided Conditional Diffusion for Controllable Traffic Simulation](https://arxiv.org/abs/2210.17366)
   - Ziyuan Zhong, Davis Rempe, Danfei Xu, Yuxiao Chen, Sushant Veer, Tong Che, Baishakhi Ray, Marco Pavone
   - Publisher: ICRA 2023
-  - Key: Traffic Simulation, Multi-Agent
+  - Key: Traffic Simulation, Multi-Agent, Classifier-free
   - ExpEnv: [nuScenes](https://github.com/nutonomy/nuscenes-devkit)
 
-### Neurips 2022
+### NeurIPS 2022
 
 - [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/abs/2208.06193)
   - Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
-  - Publisher:  Neurips Deep RL Workshop 2022
+  - Publisher:  NeurIPS Deep RL Workshop 2022
   - Key: Offline RL, Policy Optimization
   - Code: [official](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl), [unofficial](https://github.com/twitter/diffusion-rl)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
@@ -155,7 +155,7 @@ format:
 - [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/abs/2205.09991)
   - Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine
   - Publisher:  ICML 2022 (long talk)
-  - Key: Offline RL,  Model-based RL, Trajectory Optimization
+  - Key: Offline RL,  Model-based RL, Trajectory Optimization, Classifier-guided
   - Code: [official](https://github.com/jannerm/diffuser)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
 
