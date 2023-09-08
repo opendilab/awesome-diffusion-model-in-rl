@@ -72,11 +72,6 @@ format:
   - Code: [official](https://github.com/scenediffuser/Scene-Diffuser)
   - ExpEnv: [ScanNet](http://www.scan-net.org/), [MultiDex](https://github.com/tengyu-liu/GenDexGrasp), [PROX](https://prox.is.tue.mpg.de/index.html)
 
-- [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2304.02532)
-  - Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
-  - Key: Planning, Generalizability, Classifier-guided
-  - ExpEnv: Maze2D, MuJoCo, KUKA Robot
-
 - [Goal-Conditioned Imitation Learning using Score-based Diffusion Policies](https://arxiv.org/abs/2302.01877)
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
@@ -109,7 +104,7 @@ format:
   - Publisher: ICML 2023
   - Key: Offline RL, Constrained Policy Optimization, Classifier-guided
   - Code: [official](https://github.com/ChenDRAG/CEP-energy-guided-diffusion)
-  - ExpEnv: [MuJoCo](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
+  - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### ICLR 2023
 
