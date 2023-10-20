@@ -50,6 +50,30 @@ format:
 ```
 
 ### Arxiv
+- [Boosting Continuous Control with Consistency Policy](https://arxiv.org/abs/2310.06343)
+  - Yuhui Chen, Haoran Li, Dongbin Zhao
+  - Key: Q-learning, sample efficiency, Consistency policy
+  - ExpEnv: DMC, Gym MuJoCo, D4RL
+
+- [DiffCPS: Diffusion Model based Constrained Policy Search for Offline Reinforcement Learning](https://arxiv.org/abs/2310.05333)
+  - Longxiang He, Linrui Zhang, Junbo Tan, Xueqian Wang
+  - Key: Constrained policy search, Offline-RL
+  - ExpEnv: D4RL
+
+- [Learning to Reach Goals via Diffusion](https://arxiv.org/abs/2310.02505)
+  - Vineet Jain, Siamak Ravanbakhsh
+  - Key: Constrained policy search, Offline-RL
+  - ExpEnv: offline goal-conditioned setting
+
+- [AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model ](https://arxiv.org/abs/2310.02054)
+  - Zibin Dong, Yifu Yuan, Jianye Hao, Fei Ni, Yao Mu, Yan Zheng, Yujing Hu, Tangjie Lv, Changjie Fan, Zhipeng Hu
+  - Key: RLHF, Alignment, Classifier-free
+  - ExpEnv: Gym MuJoCo
+
+- [Consistency Models as a Rich and Efficient Policy Class for Reinforcement Learning](https://arxiv.org/abs/2310.02505)
+  - Zihan Ding, Chi Jin
+  - Key: Consistency policy, three typical RL settings
+  - ExpEnv: D4RL, Gym MuJoCo
 
 - [MADiff: Offline Multi-agent Learning with Diffusion Models](https://arxiv.org/abs/2305.17330)
   - Zhengbang Zhu, Minghuan Liu, Liyuan Mao, Bingyi Kang, Minkai Xu, Yong Yu, Stefano Ermon, Weinan Zhang
