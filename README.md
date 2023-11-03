@@ -50,6 +50,11 @@ format:
 ```
 
 ### Arxiv
+
+- [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
+  - Zhengbang Zhu, Hanye Zhao, Haoran He, Yichao Zhong, Shenyu Zhang, Yong Yu, Weinan Zhang
+  - Key: survey
+
 - [Boosting Continuous Control with Consistency Policy](https://arxiv.org/abs/2310.06343)
   - Yuhui Chen, Haoran Li, Dongbin Zhao
   - Key: Q-learning, sample efficiency, Consistency policy
