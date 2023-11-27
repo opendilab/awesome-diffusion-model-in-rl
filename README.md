@@ -106,6 +106,15 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+### NeurIPS 2023
+
+- [Learning Score-based Grasping Primitive for Human-assisting Dexterous Grasping](https://arxiv.org/pdf/2309.06038.pdf)
+  - Tianhao Wu, Mingdong Wu, Jiyao Zhang, Yunchong Gan, Hao Dong
+  - Publisher:  NeurIPS 2023
+  - Key: Residual Policy Learning, Dexterous Grasping, Score-based Diffusion
+  - Code: [official](https://github.com/tianhaowuhz/human-assisting-dex-grasp)
+  - ExpEnv: [IsaacGym](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/tree/main)
+
 ### ICML 2023
 
 - [Optimizing DDPM Sampling with Shortcut Fine-Tuning](https://arxiv.org/abs/2301.13362)
@@ -166,6 +175,13 @@ format:
   - ExpEnv: [nuScenes](https://github.com/nutonomy/nuscenes-devkit)
 
 ### NeurIPS 2022
+
+- [TarGF: Learning Target Gradient Field to Rearrange Objects without Explicit Goal Specification](https://arxiv.org/abs/2209.00853)
+  - Mingdong Wu, Fangwei Zhong, Yulong Xia, Hao Dong
+  - Publisher:  NeurIPS 2022
+  - Key: Inverse RL, Goal Specification, Score-based Diffusion
+  - Code: [official](https://github.com/AaronAnima/TarGF)
+  - ExpEnv: [Room Rearrangement](https://github.com/AaronAnima/TarGF/tree/main/envs/Room), [Ball Rearrangement](https://github.com/AaronAnima/EbOR)
 
 - [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/abs/2208.06193)
   - Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
