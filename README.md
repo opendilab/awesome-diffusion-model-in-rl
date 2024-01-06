@@ -51,6 +51,11 @@ format:
 
 ### Arxiv
 
+- [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
+  - Marc Rigter, Jun Yamada, Ingmar Posner
+  - Key: world models, model-based RL, policy guidance
+  - ExpEnv: Gym MuJoCo
+
 - [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
   - Zhengbang Zhu, Hanye Zhao, Haoran He, Yichao Zhong, Shenyu Zhang, Yong Yu, Weinan Zhang
   - Key: survey
