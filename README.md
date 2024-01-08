@@ -119,6 +119,13 @@ format:
   - Key: Residual Policy Learning, Dexterous Grasping, Score-based Diffusion
   - Code: [official](https://github.com/tianhaowuhz/human-assisting-dex-grasp)
   - ExpEnv: [IsaacGym](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/tree/main)
+    
+- [Efficient Diffusion Policies for Offline Reinforcement Learning](https://arxiv.org/abs/2305.20081)
+  - Bingyi Kang, Xiao Ma, Chao Du, Tianyu Pang, Shuicheng Yan
+  - Publisher:  NeurIPS 2023
+  - Key: Computational Efficiency, Offline RL
+  - Code: [official](https://github.com/sail-sg/edp)
+  - ExpEnv: D4RL
 
 ### ICML 2023
 
