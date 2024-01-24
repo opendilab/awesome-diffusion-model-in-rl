@@ -51,6 +51,12 @@ format:
 
 ### Arxiv
 
+- [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
+  - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
+  - Key: Time-independent classifier-guided, Safe offline RL
+  - Code: [official](https://github.com/ZhengYinan-AIR/FISOR)
+  - ExpEnv: DSRL
+
 - [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
   - Marc Rigter, Jun Yamada, Ingmar Posner
   - Key: world models, model-based RL, policy guidance
