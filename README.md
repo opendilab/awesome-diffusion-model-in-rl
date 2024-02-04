@@ -13,6 +13,7 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
+    - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**) 
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
     - [ICRA 2023](#icra-2023)
@@ -117,6 +118,71 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+### ICLR 2024
+
+- [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/pdf/2305.13301.pdf)
+  - Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, Sergey Levine
+  - Publisher: ICLR 2024
+  - Key: reinforcement learning, RLHF, diffusion models
+  - Code: [official](http://rl-diffusion.github.io/)
+  - ExpEnv: None
+
+- [Reasoning with Latent Diffusion in Offline Reinforcement Learning](https://arxiv.org/pdf/2309.06599.pdf)
+  - Siddarth Venkatraman, Shivesh Khaitan, Ravi Tej Akella, John Dolan, Jeff Schneider, Glen Berseth
+  - Publisher: ICLR 2024
+  - Key: Reinforcement Learning, Diffusion Models
+  - Code: [official](https://github.com/ldcq/ldcq)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- [DMBP: Diffusion model based predictor for robust offline reinforcement learning against state observation perturbations](https://openreview.net/forum?id=ZULjcYLWKe)
+  - Anonymous Authors
+  - Publisher:  ICLR 2024
+  - Key: Robust Reinforcement Learning, Offline Reinforcement Learning, Diffusion Models
+  - Code: [official](https://github.com/wrk8/DMBP)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- [Flow to Better: Offline Preference-based Reinforcement Learning via Preferred Trajectory Generation](https://openreview.net/forum?id=EG68RSznLT)
+  - Zhilong Zhang, Yihao Sun , Junyin Ye, Tianshuo Liu, Jiaji Zhang, Yang Yu
+  - Publisher:  ICLR 2024
+  - Key: Preference-based Reinforcement Learning, Offline Reinforcement Learning, Conditional Generative Modeling, Diffusion Models
+  - Code: [official]()
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)，[MetaWorld](https://github.com/Farama-Foundation/Metaworld)
+
+- [Score Regularized Policy Optimization through Diffusion Behavior](https://arxiv.org/pdf/2310.07297.pdf)
+  - Huayu Chen, Cheng Lu, Zhengyi Wang, Hang Su, Jun Zhu
+  - Publisher:  ICLR 2024
+  - Key: offline reinforcement learning, generative models, diffusion models, behavior modeling, computational efficiency
+  - Code: [official](https://github.com/thu-ml/SRPO)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- [Simple Hierarchical Planning with Diffusion](https://arxiv.org/pdf/2401.02644.pdf)
+  - Chang Chen, Fei Deng, Kenji Kawaguchi, Caglar Gulcehre, Sungjin Ahn
+  - Publisher:  ICLR 2024
+  - Key: Hierarchical Offline RL, Hierarchical planning, Hierarchical Reinforcement Learning, Diffusion-Based Planning
+  - Code: [official](https://github.com/sail-sg/edp)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- [Efficient Planning with Latent Diffusion](https://openreview.net/forum?id=btpgDo4u4j)
+  - Wenhao Li
+  - Publisher:  ICLR 2024
+  - Key: Offline Decision-Making, Offline Reinforcement Learning, Generative Model, Diffusion Model
+  - Code: [official]()
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- [Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/abs/2311.01017)
+  - Lunjun Zhang, Yuwen Xiong, Ze Yang, Sergio Casas, Rui Hu, Raquel Urtasun
+  - Publisher:  ICLR 2024
+  - Key: discrete diffusion; world model; autonomous driving
+  - Code: [official]()
+  - ExpEnv: [NuScenes](https://www.nuscenes.org/), [KITTI Odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php), [Argoverse2 Lidar](https://www.argoverse.org/av2.html)
+
+- [AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model](https://openreview.net/forum?id=bxfKIYfHyx)
+  - Zibin Dong, Yifu Yuan, Jianye Hao, Fei Ni, Yao Mu, Yan Zheng,Yujing Hu, Tangjie Lv, Changjie Fan, Zhipeng Hu
+  - Publisher:  ICLR 2024
+  - Key: Reinforcement learning; Diffusion models; RLHF; Preference aligning
+  - Code: [official](https://aligndiff.github.io/)
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
 ### NeurIPS 2023
 
 - [Learning Score-based Grasping Primitive for Human-assisting Dexterous Grasping](https://arxiv.org/pdf/2309.06038.pdf)
@@ -131,7 +197,7 @@ format:
   - Publisher:  NeurIPS 2023
   - Key: Computational Efficiency, Offline RL
   - Code: [official](https://github.com/sail-sg/edp)
-  - ExpEnv: D4RL
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### ICML 2023
 
