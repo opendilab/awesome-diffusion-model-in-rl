@@ -52,6 +52,56 @@ format:
 
 ### Arxiv
 
+- [NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration](https://openreview.net/pdf?id=FhQRJW71h5)
+  - Ajay Sridhar, Dhruv Shah, Catherine Glossop, Sergey Levine
+  - Key: diffusion models, Offline RL
+  - ExpEnv: Real-world robot manipulation
+
+- [IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies](https://arxiv.org/pdf/2304.10573)
+  - Philippe Hansen-Estruch, Ilya Kostrikov, Michael Janner, Jakub Grudzien Kuba, Sergey Levine
+  - Key: diffusion models, Offline RL
+  - ExpEnv: D4RL
+
+- [To the Noise and Back: Diffusion for Shared Autonomy](https://arxiv.org/pdf/2302.12244)
+  - Takuma Yoneda, Luzhe Sun, and Ge Yang, Bradly Stadie, Matthew Walter
+  - Key: diffusion models, Imitation, Robotics
+  - ExpEnv:  2D Control, Lunar Lander, Lunar Reacher and Block Pushing
+
+- [PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play](https://arxiv.org/pdf/2312.04549)
+  - Lili Chen, Shikhar Bahl, Deepak Pathak
+  - Key: diffusion models, Imitation, Robotics
+  - ExpEnv: CALVIN, Franka Kitchen, Language-Conditioned Ravens
+
+- [XSkill: Cross Embodiment Skill Discovery](https://arxiv.org/pdf/2307.09955)
+  - Mengda Xu, Zhenjia Xu, Cheng Chi, Manuela Veloso, Shuran Song
+  - Key: diffusion models, Imitation, Robotics
+  - ExpEnv: Real-world robot manipulation
+
+- [Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks](https://arxiv.org/pdf/2305.12171)
+  - Eley Ng, Ziang Liu, Monroe Kennedy III
+  - Key: diffusion models, Human-in-the-loop, Robotics
+  - ExpEnv: Human-in-the-Loop Simulation
+
+- [GenAug: Retargeting behaviors to unseen situations via Generative Augmentation](https://arxiv.org/pdf/2302.06671)
+  - Zoey Chen, Sho Kiami, Abhishek Gupta, Vikash Kumar
+  - Key: diffusion models, Data Synthesizer, Robotics
+  - ExpEnv: end-to-end vision manipulation tasks
+
+- [Scaling Robot Learning with Semantically Imagined Experience](https://arxiv.org/pdf/2302.11550)
+  - Tianhe Yu, Ted Xiao, Austin Stone, Jonathan Tompson, Anthony Brohan, Su Wang, Jaspiar Singh, Clayton Tan, Dee M, Jodilyn Peralta, Brian Ichter, Karol Hausman, Fei Xia
+  - Key: diffusion models, Data Synthesizer, Robotics
+  - ExpEnv: robot manipulation tasks
+
+- [Synthetic Experience Replay](https://arxiv.org/pdf/2303.06614)
+  - Cong Lu, Philip J. Ball, Yee Whye Teh, Jack Parker-Holder
+  - Key: diffusion models, Data Synthesizer
+  - ExpEnv: D4RL
+
+- [Value function estimation using conditional diffusion models for control](https://arxiv.org/pdf/2306.07290)
+  - Bogdan Mazoure, Walter Talbott, Miguel Angel Bautista, Devon Hjelm, Alexander Toshev, Josh Susskind
+  - Key: diffusion models, off-policy learning, offline RL, reinforcement learning, robotics
+  - ExpEnv: D4RL
+
 - [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
   - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
   - Key: Time-independent classifier-guided, Safe offline RL
@@ -184,6 +234,12 @@ format:
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### NeurIPS 2023
+
+- [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://openreview.net/pdf?id=fAdMly4ki5)
+  - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
+  - Publisher:  NeurIPS 2023
+  - Key: multi-task reinforcement learning, diffusion models, planning, data synthesis
+  - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
 - [Learning Score-based Grasping Primitive for Human-assisting Dexterous Grasping](https://arxiv.org/pdf/2309.06038.pdf)
   - Tianhao Wu, Mingdong Wu, Jiyao Zhang, Yunchong Gan, Hao Dong
