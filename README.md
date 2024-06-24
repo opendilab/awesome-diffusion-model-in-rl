@@ -52,6 +52,16 @@ format:
 
 ### Arxiv
 
+- [3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations](https://arxiv.org/abs/2403.03954)
+  - Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu
+  - Key: 3D Diffusion Policy, visual imitation learning
+  - ExpEnv: MetaWorld, Adroit, DexArt
+
+- [Diffusion Actor-Critic: Formulating Constrained Policy Iteration as Diffusion Noise Regression for Offline Reinforcement Learning](https://arxiv.org/abs/2405.20555)
+  - Linjiajie Fang, Ruoxue Liu, Jing Zhang, Wenjia Wang, Bing-Yi Jing
+  - Key: diffusion models, Actor-Critic, offline RL
+  - ExpEnv: D4RL
+
 - [NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration](https://openreview.net/pdf?id=FhQRJW71h5)
   - Ajay Sridhar, Dhruv Shah, Catherine Glossop, Sergey Levine
   - Key: diffusion models, Offline RL
@@ -167,6 +177,15 @@ format:
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
+
+### CVPR 2024
+
+- [Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation](https://arxiv.org/abs/2403.03890)
+  - Xiao Ma, Sumit Patidar, Iain Haughton, Stephen James
+  - Publisher: CVPR 2024
+  - Key: long-horizon task planning, diffusion models
+  - Code: [official](https://github.com/dyson-ai/hdp)
+  - ExpEnv: RLBench
 
 ### ICLR 2024
 
