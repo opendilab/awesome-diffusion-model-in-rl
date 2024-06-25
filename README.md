@@ -1,4 +1,6 @@
 # Awesome Diffusion Model in RL
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-diffusion-model-in-rl) ![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-diffusion-model-in-rl&left_text=Visitors)  ![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-diffusion-model-in-rl?color=yellow) ![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-diffusion-model-in-rl?color=9cf) [![GitHub license](https://img.shields.io/github/license/opendilab/awesome-diffusion-model-in-rl)](https://github.com/opendilab/awesome-diffusion-model-in-rl/blob/main/LICENSE)
+
 
 This is a collection of research papers for **Diffusion Model in RL**.
 And the repository will be continuously updated to track the frontier of Diffusion RL.
@@ -14,6 +16,7 @@ Welcome to follow and star!
   - [Papers](#papers)
     - [Arxiv](#arxiv)
     - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**) 
+    - [CVPR 2024](#cvpr-2024)
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
     - [ICRA 2023](#icra-2023)
