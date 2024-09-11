@@ -55,6 +55,11 @@ format:
 
 ### Arxiv
 
+- [Enhancing Deep Reinforcement Learning: A Tutorial on Generative Diffusion Models in Network Optimization](https://arxiv.org/abs/2308.05384)
+  - Hongyang Du, Ruichen Zhang, Yinqiu Liu, Jiacheng Wang, Yijing Lin, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Shuguang Cui, Bo Ai, Haibo Zhou, Dong In Kim
+  - Key: Generative Diffusion Models, Incentive Mechanism Design, Semantic Communications, Internet of Vehicles
+  - ExpEnv: None
+
 - [3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations](https://arxiv.org/abs/2403.03954)
   - Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu
   - Key: 3D Diffusion Policy, visual imitation learning
@@ -183,6 +188,13 @@ format:
 
 ### CVPR 2024
 
+- [NIFTY: Neural Object Interaction Fields for Guided Human Motion Synthesis](https://openaccess.thecvf.com/content/CVPR2024/html/Kulkarni_NIFTY_Neural_Object_Interaction_Fields_for_Guided_Human_Motion_Synthesis_CVPR_2024_paper.html)
+  - Nilesh Kulkarni, Davis Rempe, Kyle Genova, Abhijit Kundu, Justin Johnson, David Fouhey, Leonidas Guibas
+  - Publisher: CVPR 2024
+  - Key: 3D Motion Generation, Neural Interaction Fields, Human-Object Interaction
+  - Code: [official](https://nileshkulkarni.github.io/nifty)
+  - ExpEnv: AMASS
+
 - [Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation](https://arxiv.org/abs/2403.03890)
   - Xiao Ma, Sumit Patidar, Iain Haughton, Stephen James
   - Publisher: CVPR 2024
@@ -256,6 +268,12 @@ format:
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
 
 ### NeurIPS 2023
+
+- [Learning Universal Policies via Text-Guided Video Generation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html)
+  - Yilun Du, Sherry Yang, Bo Dai, Hanjun Dai, Ofir Nachum, Josh Tenenbaum, Dale Schuurmans, Pieter Abbeel
+  - Publisher:  NeurIPS 2023
+  - Key: Text-Guided Image Synthesis, Sequential Decision Making, Video Generation
+  - ExpEnv: [real-world robotic]()
 
 - [Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning](https://openreview.net/pdf?id=fAdMly4ki5)
   - Haoran He, Chenjia Bai, Kang Xu, Zhuoran Yang, Weinan Zhang, Dong Wang, Bin Zhao, Xuelong Li
