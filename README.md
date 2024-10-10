@@ -15,7 +15,8 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
-    - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**) 
+    - [ICML 2024](#icml-2024)(**<font color="red">New!!!</font>**) 
+    - [ICLR 2024](#iclr-2024)
     - [CVPR 2024](#cvpr-2024)
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
@@ -185,6 +186,22 @@ format:
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
+
+### ICML 2024
+- [DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching](https://proceedings.mlr.press/v235/liu24ao.html)
+  - Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang
+  - Publisher: ICML 2024
+  - Key: data augmentation pipeline, offline RL
+  - Code: [official](https://github.com/guangheli12/DiffStitch)
+  - ExpEnv: D4RL
+
+- [Energy-Guided Diffusion Sampling for Offline-to-Online Reinforcement Learning](https://proceedings.mlr.press/v235/liu24ao.html)
+  - Xu-Hui Liu, Tian-Shuo Liu, Shengyi Jiang, Ruifeng Chen, Zhilong Zhang, Xinwei Chen, Yang Yu
+  - Publisher: ICML 2024
+  - Key: data distribution shift, plug-in approach
+  - Code: [official](https://github.com/liuxhym/EDIS)
+  - ExpEnv: D4RL, Mujoco, AntMaze Navigation, Adroit Manipulation
+
 
 ### CVPR 2024
 
