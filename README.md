@@ -188,6 +188,13 @@ format:
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
 ### ICML 2024
+- [Resisting Stochastic Risks in Diffusion Planners with the Trajectory Aggregation Tree](https://proceedings.mlr.press/v235/feng24b.html)
+  - Lang Feng, Pengjie Gu, Bo An, Gang Pan
+  - Publisher: ICML 2024
+  - Key: diffusion planners, stochastic risk, tree, training-free
+  - Code: [official](https://github.com/langfengQ/tree-diffusion-planner)
+  - ExpEnv: Maze2D, MuJoco, D4RL
+
 - [DiffStitch: Boosting Offline Reinforcement Learning with Diffusion-based Trajectory Stitching](https://proceedings.mlr.press/v235/liu24ao.html)
   - Guanghe Li, Yixiang Shan, Zhengbang Zhu, Ting Long, Weinan Zhang
   - Publisher: ICML 2024
