@@ -23,6 +23,7 @@ Welcome to follow and star!
     - [ICRA 2023](#icra-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [ICML 2022](#icml-2022)
+  - [Codebase](#codebase)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -402,6 +403,20 @@ format:
   - Key: Offline RL,  Model-based RL, Trajectory Optimization, Classifier-guided
   - Code: [official](https://github.com/jannerm/diffuser)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
+
+## Codebase
+
+- [GenerativeRL](https://github.com/opendilab/GenerativeRL)
+  - Zhang, Jinouwen and Xue, Rongkun and Niu, Yazhe and Chen, Yun and Chen, Xinyan and Wang, Ruiheng and Liu, Yu
+  - Publisher: GitHub
+  - Key: Reinforcement Learning, Generative Model, Diffusion Model, Flow Model
+  - Code: [official](https://github.com/opendilab/GenerativeRL)
+
+- [CleanDiffuser](https://github.com/CleanDiffuserTeam/CleanDiffuser)
+  - Zibin Dong and Yifu Yuan and Jianye Hao and Fei Ni and Yi Ma and Pengyi Li and Yan Zheng
+  - Publisher: GitHub
+  - Key: Reinforcement Learning, Generative Model, Diffusion Model, Flow Model
+  - Code: [official](https://github.com/CleanDiffuserTeam/CleanDiffuser)
 
 ## Contributing
 
