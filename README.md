@@ -291,6 +291,13 @@ format:
   - Key: Reinforcement learning; Diffusion models; RLHF; Preference aligning
   - Code: [official](https://aligndiff.github.io/)
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+ 
+- [Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks](https://openreview.net/forum?id=0H6DFoZZXZ)
+  - Edwin Zhang, Yujie Lu, Shinda Huang, William Yang Wang, Amy Zhang
+  - Publisher:  ICLR 2024
+  - Key: planning, diffusion, language, RL, reinforcement
+  - Code: [official](https://lcd.eddie.win/)
+  - ExpEnv: [CALVIN](http://calvin.cs.uni-freiburg.de/)
 
 ### NeurIPS 2023
 
