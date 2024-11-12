@@ -157,7 +157,7 @@ format:
   - Key: RLHF, Alignment, Classifier-free
   - ExpEnv: Gym MuJoCo
 
-- [Consistency Models as a Rich and Efficient Policy Class for Reinforcement Learning](https://arxiv.org/abs/2310.02505)
+- [Consistency Models as a Rich and Efficient Policy Class for Reinforcement Learning](https://arxiv.org/abs/2309.16984)
   - Zihan Ding, Chi Jin
   - Key: Consistency policy, three typical RL settings
   - ExpEnv: D4RL, Gym MuJoCo
