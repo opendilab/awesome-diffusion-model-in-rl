@@ -15,7 +15,8 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
-    - [ICML 2024](#icml-2024)(**<font color="red">New!!!</font>**) 
+    - [NeurIPS 2024](#neurips-2024)(**<font color="red">New!!!</font>**)
+    - [ICML 2024](#icml-2024)
     - [ICLR 2024](#iclr-2024)
     - [CVPR 2024](#cvpr-2024)
     - [ICML 2023](#icml-2023)
@@ -187,6 +188,71 @@ format:
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
+
+### NeurIPS 2024
+
+- [Adversarial Environment Design via Regret-Guided Diffusion Models](https://openreview.net/pdf?id=eezCLKwx6T)  
+  - Hojun Chung, Junseo Lee, Minsoo Kim, Dohyeong Kim, Songhwai Oh  
+  - Key: Reinforcement Learning, Unsupervised Environment Design, Diffusion Models  
+  - ExpEnv: Minigrid, Partially Observable Maze Navigation, 2D Bipedal Locomotion
+
+- [Graph Diffusion Policy Optimization](https://arxiv.org/pdf/2402.16302)
+  - Yijing Liu, Chao Du, Tianyu Pang, Chongxuan Li, Min Lin, Wei Chen
+  - Keyword: Graph Generation, Diffusion Models, Reinforcement Learning
+  - ExpEnv: Drug Design, Graph Generation Tasks
+  - Code: [official](https://github.com/sail-sg/GDPO)
+
+- [PrefPaint: Aligning Image Inpainting Diffusion Model with Human Preference](https://arxiv.org/abs/2410.21966)  
+  - Kendong Liu, Zhiyu Zhu, Chuanhao Li, Hui Liu, Huanqiang Zeng, Junhui Hou  
+  - Key: Image Inpainting, Diffusion Models, Reinforcement Learning, Human Preference Alignment
+  - Exp: Image inpainting comparison, image extension, 3D reconstruction   
+  - Code: [official](https://github.com/Kenkenzaii/PrefPaint)
+
+- [Maximum Entropy Inverse Reinforcement Learning of Diffusion Models with Energy-Based Models](https://arxiv.org/abs/2407.00626)  
+  - Sangwoong Yoon, Himchan Hwang, Dohyun Kwon, Yung-Kyun Noh, Frank C. Park  
+  - Key: Diffusion Models, Maximum Entropy Inverse Reinforcement Learning (IRL), Energy-Based Models (EBM), Anomaly Detection
+  - ExpEnv: Empirical studies on generative modeling and anomaly detection tasks.
+
+- [Text-Aware Diffusion for Policy Learning](https://arxiv.org/abs/2407.01903)
+  - Calvin Luo, Mandy He, Zilai Zeng, Chen Sun
+  - Key: Reinforcement Learning, Text-Conditioned Diffusion, Zero-Shot Reward, Policy Learning
+  - ExpEnv: Humanoid, Dog environments, Meta-World
+
+- [Learning Multimodal Behaviors from Scratch with Diffusion Policy Gradient](https://arxiv.org/abs/2406.00681)  
+  - Zechu Li, Rickmer Krohn, Tao Chen, Anurag Ajay, Pulkit Agrawal, Georgia Chalvatzaki  
+  - Key: Reinforcement Learning, Multimodal Learning, Diffusion Models, Actor-Critic Algorithm  
+  - ExpEnv: High-dimensional continuous control tasks, Maze navigation with unseen obstacles
+
+- [Model-Based Diffusion for Trajectory Optimization](https://arxiv.org/abs/2407.01573)
+  - Chaoyi Pan, Zeji Yi, Guanya Shi, Guannan Qu
+  - Key: Model-Based Diffusion, Trajectory Optimization, Diffusion Models
+  - ExpEnv: Contact-rich Tasks, High-dimensional Humanoids
+
+- [Diffusion for World Modeling: Visual Details Matter in Atari](https://arxiv.org/abs/2405.12399)  
+  - Eloi Alonso, Adam Jelley, Vincent Micheli, Anssi Kanervisto, Amos Storkey, Tim Pearce, François Fleuret  
+  - Key: Reinforcement Learning, Diffusion Models, World Modeling, Visual Details  
+  - ExpEnv: Atari 100k Benchmark, Counter-Strike: Global Offensive
+
+- [MADiff: Offline Multi-agent Learning with Diffusion Models](https://arxiv.org/abs/2305.17330)
+  - Zhengbang Zhu, Minghuan Liu, Liyuan Mao, Bingyi Kang, Minkai Xu, Yong Yu, Stefano Ermon, Weinan Zhang
+  - Key: Offline Reinforcement Learning, Multi-agent Learning, Diffusion Models, Coordination
+  - ExpEnv: Multi-agent Learning Tasks
+  - Code: [official](https://this-url-will-be-replaced-by-actual-code-link)
+
+- [Amortizing Intractable Inference in Diffusion Models for Vision, Language, and Control](https://arxiv.org/abs/2405.20971)
+  - Siddarth Venkatraman, Moksh Jain, Luca Scimeca, Minsu Kim, Marcin Sendera, Mohsin Hasan, Luke Rowe, Sarthak Mittal, Pablo Lemos, Emmanuel Bengio, Alexandre Adam, Jarrid Rector-Brooks, Yoshua Bengio, Glen Berseth, Nikolay Malkin
+  - Key: Diffusion Models, Amortized Inference, Reinforcement Learning, Vision, Language, Multimodal Data
+  - ExpEnv: Vision (Classifier Guidance), Language (Infilling under Discrete Diffusion LLM), Multimodal (Text-to-Image Generation), Offline RL Benchmarks
+
+- [Diffusion Actor-Critic with Entropy Regulator](https://arxiv.org/abs/2405.15177)
+  - Yinuo Wang, Likun Wang, Yuxuan Jiang, Wenjun Zou, Tong Liu, Xujie Song, Wenxuan Wang, Liming Xiao, Jiang Wu, Jingliang Duan, Shengbo Eben Li
+  - Key: Reinforcement Learning, Diffusion Models, Entropy Regulation, Multimodal Policy
+  - ExpEnv: MuJoCo Benchmarks, Multimodal Tasks
+
+- [Diffusion Spectral Representation for Reinforcement Learning](https://arxiv.org/abs/2406.16121)
+  - Dmitry Shribak, Chen-Xiao Gao, Yitong Li, Chenjun Xiao, Bo Dai
+  - Key: Reinforcement Learning, Diffusion Models, Representation Learning, Markov Decision Processes (MDP), Partially Observable Markov Decision Processes (POMDP)
+  - ExpEnv: Various RL Benchmarks (Fully and Partially Observable Settings)
 
 ### ICML 2024
 - [Resisting Stochastic Risks in Diffusion Planners with the Trajectory Aggregation Tree](https://proceedings.mlr.press/v235/feng24b.html)
