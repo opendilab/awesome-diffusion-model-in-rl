@@ -192,6 +192,21 @@ format:
 
 ### ICLR 2025
 
+- [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://openreview.net/forum?id=SI2hI0frk6)  
+  - Chunting Zhou, LILI YU, Arun Babu, Kushal Tirumala, Michihiro Yasunaga, Leonid Shamis, Jacob Kahn, Xuezhe Ma, Luke Zettlemoyer, Omer Levy  
+  - Key: multimodal foundation model, multimodal generation and understanding, diffusion, next token prediction  
+  - ExpEnv: Not specified
+
+- [What Makes a Good Diffusion Planner for Decision Making?](https://openreview.net/forum?id=7BQkXXM8Fy)  
+  - Haofei Lu, Dongqi Han, Yifei Shen, Dongsheng Li  
+  - Key: Diffusion Models, Offline Reinforcement Learning, Decision Making, Planning  
+  - ExpEnv: Offline RL Benchmarks
+
+- [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://openreview.net/forum?id=wM2sfVgMDH)  
+  - Yinan Zheng, Ruiming Liang, Kexin ZHENG, Jinliang Zheng, Liyuan Mao, Jianxiong Li, Weihao Gu, Rui Ai, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu  
+  - Key: diffusion planning, autonomous driving  
+  - ExpEnv: nuPlan, 200-hour delivery-vehicle driving dataset
+
 - [Bidirectional Decoding: Improving Action Chunking via Closed-Loop Resampling](https://openreview.net/forum?id=qZmn2hkuzw)  
   - Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn  
   - Key: Robot Learning, Action Chunking, Test-Time Decoding  
