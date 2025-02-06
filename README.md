@@ -15,7 +15,8 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
-    - [NeurIPS 2024](#neurips-2024)(**<font color="red">New!!!</font>**)
+    - [ICLR 2025](#iclr-2025)(**<font color="red">New!!!</font>**)
+    - [NeurIPS 2024](#neurips-2024)
     - [ICML 2024](#icml-2024)
     - [ICLR 2024](#iclr-2024)
     - [CVPR 2024](#cvpr-2024)
@@ -189,6 +190,13 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+### ICLR 2025
+
+- [Bidirectional Decoding: Improving Action Chunking via Closed-Loop Resampling](https://openreview.net/forum?id=qZmn2hkuzw)  
+  - Yuejiang Liu, Jubayer Ibn Hamid, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn  
+  - Key: Robot Learning, Action Chunking, Test-Time Decoding  
+  - ExpEnv: Seven simulation benchmarks, Two real-world tasks
+  
 ### NeurIPS 2024
 
 - [Adversarial Environment Design via Regret-Guided Diffusion Models](https://openreview.net/pdf?id=eezCLKwx6T)  
@@ -292,7 +300,7 @@ format:
   - Key: long-horizon task planning, diffusion models
   - Code: [official](https://github.com/dyson-ai/hdp)
   - ExpEnv: RLBench
-
+  
 ### ICLR 2024
 
 - [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/pdf/2305.13301.pdf)
