@@ -59,6 +59,11 @@ format:
 
 ### Arxiv
 
+- [Enhancing Memory and Imagination Consistency in Diffusion-based World Models via Linear-Time Sequence Modeling](https://www.arxiv.org/abs/2502.00466)
+  - Jia-Hua Lee, Bor-Jiun Lin, Wei-Fang Sun, Chun-Yi Lee
+  - Key: Reinforcement Learning, Model-Based Reinforcement Learning, Diffusion Models, Selective State Spaces
+  - ExpEnv: Atari 100k Benchmark, ViZDoom, MiniGrid 
+
 - [Enhancing Deep Reinforcement Learning: A Tutorial on Generative Diffusion Models in Network Optimization](https://arxiv.org/abs/2308.05384)
   - Hongyang Du, Ruichen Zhang, Yinqiu Liu, Jiacheng Wang, Yijing Lin, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Shuguang Cui, Bo Ai, Haibo Zhou, Dong In Kim
   - Key: Generative Diffusion Models, Incentive Mechanism Design, Semantic Communications, Internet of Vehicles
