@@ -129,12 +129,6 @@ format:
   - Key: diffusion models, off-policy learning, offline RL, reinforcement learning, robotics
   - ExpEnv: D4RL
 
-- [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
-  - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
-  - Key: Time-independent classifier-guided, Safe offline RL
-  - Code: [official](https://github.com/ZhengYinan-AIR/FISOR)
-  - ExpEnv: DSRL
-
 - [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
   - Marc Rigter, Jun Yamada, Ingmar Posner
   - Key: world models, model-based RL, policy guidance
@@ -207,9 +201,10 @@ format:
   - Key: Diffusion Models, Offline Reinforcement Learning, Decision Making, Planning  
   - ExpEnv: Offline RL Benchmarks
 
-- [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://openreview.net/forum?id=wM2sfVgMDH)  
+- [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://arxiv.org/pdf/2501.15564)  
   - Yinan Zheng, Ruiming Liang, Kexin ZHENG, Jinliang Zheng, Liyuan Mao, Jianxiong Li, Weihao Gu, Rui Ai, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu  
   - Key: diffusion planning, autonomous driving  
+  - Code: [official](https://github.com/ZhengYinan-AIR/Diffusion-Planner)
   - ExpEnv: nuPlan, 200-hour delivery-vehicle driving dataset
 
 - [Bidirectional Decoding: Improving Action Chunking via Closed-Loop Resampling](https://openreview.net/forum?id=qZmn2hkuzw)  
@@ -322,6 +317,13 @@ format:
   - ExpEnv: RLBench
   
 ### ICLR 2024
+
+- [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
+  - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
+  - Publisher: ICLR 2024
+  - Key: Time-independent classifier-guided, Safe offline RL
+  - Code: [official](https://github.com/ZhengYinan-AIR/FISOR)
+  - ExpEnv: DSRL
 
 - [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/pdf/2305.13301.pdf)
   - Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, Sergey Levine
