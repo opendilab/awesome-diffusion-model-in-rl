@@ -393,6 +393,14 @@ format:
   - Code: [official](https://lcd.eddie.win/)
   - ExpEnv: [CALVIN](http://calvin.cs.uni-freiburg.de/)
 
+- [Belief-Enriched Pessimistic Q-Learning against Adversarial State Perturbations](https://arxiv.org/abs/2403.04050)
+  - Xiaolin Sun and Zizhan Zheng
+  - Publisher: ICLR 2024
+  - Key: Robust Reinforcement Learning, Diffusion Models
+  - Code: [official](https://github.com/SliencerX/Belief-enriched-robust-Q-learning)
+  - ExpEnv: Atari
+
+
 ### NeurIPS 2023
 
 - [Learning Universal Policies via Text-Guided Video Generation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html)
