@@ -59,6 +59,12 @@ format:
 
 ### Arxiv
 
+- [Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning
+](https://arxiv.org/abs/2506.21427)
+  - Prajwal Koirala, Cody Fleming
+  - Key: Offline RL, Flow Matching, Behavior Cloning, Goal-Conditioned RL, Shortcut Models
+  - ExpEnv: D4RL, OGBench, Robomimic 
+
 - [Enhancing Memory and Imagination Consistency in Diffusion-based World Models via Linear-Time Sequence Modeling](https://www.arxiv.org/abs/2502.00466)
   - Jia-Hua Lee, Bor-Jiun Lin, Wei-Fang Sun, Chun-Yi Lee
   - Key: Reinforcement Learning, Model-Based Reinforcement Learning, Diffusion Models, Selective State Spaces
