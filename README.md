@@ -59,8 +59,7 @@ format:
 
 ### Arxiv
 
-- [Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning
-](https://arxiv.org/abs/2506.21427)
+- [Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning](https://arxiv.org/abs/2506.21427)
   - Prajwal Koirala, Cody Fleming
   - Key: Offline RL, Flow Matching, Behavior Cloning, Goal-Conditioned RL, Shortcut Models
   - ExpEnv: D4RL, OGBench, Robomimic 
