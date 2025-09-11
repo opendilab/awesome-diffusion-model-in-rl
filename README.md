@@ -61,6 +61,11 @@ format:
 
 ### Arxiv
 
+- [Enhancing Memory and Imagination Consistency in Diffusion-based World Models via Linear-Time Sequence Modeling](https://www.arxiv.org/abs/2502.00466)
+  - Jia-Hua Lee, Bor-Jiun Lin, Wei-Fang Sun, Chun-Yi Lee
+  - Key: Reinforcement Learning, Model-Based Reinforcement Learning, Diffusion Models, Selective State Spaces
+  - ExpEnv: Atari 100k Benchmark, ViZDoom, MiniGrid 
+
 - [Enhancing Deep Reinforcement Learning: A Tutorial on Generative Diffusion Models in Network Optimization](https://arxiv.org/abs/2308.05384)
   - Hongyang Du, Ruichen Zhang, Yinqiu Liu, Jiacheng Wang, Yijing Lin, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Shuguang Cui, Bo Ai, Haibo Zhou, Dong In Kim
   - Key: Generative Diffusion Models, Incentive Mechanism Design, Semantic Communications, Internet of Vehicles
@@ -126,12 +131,6 @@ format:
   - Key: diffusion models, off-policy learning, offline RL, reinforcement learning, robotics
   - ExpEnv: D4RL
 
-- [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
-  - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
-  - Key: Time-independent classifier-guided, Safe offline RL
-  - Code: [official](https://github.com/ZhengYinan-AIR/FISOR)
-  - ExpEnv: DSRL
-
 - [World Models via Policy-Guided Trajectory Diffusion](https://arxiv.org/abs/2312.08533)
   - Marc Rigter, Jun Yamada, Ingmar Posner
   - Key: world models, model-based RL, policy guidance
@@ -192,6 +191,7 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+
 ### ICML 2025
 
 - [Graph Diffusion for Robust Multi-Agent Coordination](https://openreview.net/pdf?id=T5IZ32ImAB#page=6.79)
@@ -214,6 +214,7 @@ format:
   - Key: Explainable AI (XAI), Concept Generation, Vision-Language Models, Reinforcement Learning, Preference Learning, RL-based preference optimization (RLPO), TCAV, Generative Models, Understanding Neural Networks' Internal Representations, Diffusion Models (Stable Diffusion/SD), Deep Q-Network (DQN).
   - ExpEnv: GoogleNet, InceptionV3, ViT, Swin (CNN-based and Transformer-based classifiers pre-trained on ImageNet).
   
+
 ### ICLR 2025
 
 - [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://openreview.net/forum?id=SI2hI0frk6)  
@@ -226,9 +227,10 @@ format:
   - Key: Diffusion Models, Offline Reinforcement Learning, Decision Making, Planning  
   - ExpEnv: Offline RL Benchmarks
 
-- [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://openreview.net/forum?id=wM2sfVgMDH)  
+- [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://arxiv.org/pdf/2501.15564)  
   - Yinan Zheng, Ruiming Liang, Kexin ZHENG, Jinliang Zheng, Liyuan Mao, Jianxiong Li, Weihao Gu, Rui Ai, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu  
   - Key: diffusion planning, autonomous driving  
+  - Code: [official](https://github.com/ZhengYinan-AIR/Diffusion-Planner)
   - ExpEnv: nuPlan, 200-hour delivery-vehicle driving dataset
 
 - [Bidirectional Decoding: Improving Action Chunking via Closed-Loop Resampling](https://openreview.net/forum?id=qZmn2hkuzw)  
@@ -342,6 +344,13 @@ format:
   
 ### ICLR 2024
 
+- [Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model](https://arxiv.org/abs/2401.10700)
+  - Yinan Zheng, Jianxiong Li, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu
+  - Publisher: ICLR 2024
+  - Key: Time-independent classifier-guided, Safe offline RL
+  - Code: [official](https://github.com/ZhengYinan-AIR/FISOR)
+  - ExpEnv: DSRL
+
 - [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/pdf/2305.13301.pdf)
   - Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, Sergey Levine
   - Publisher: ICLR 2024
@@ -411,6 +420,14 @@ format:
   - Key: planning, diffusion, language, RL, reinforcement
   - Code: [official](https://lcd.eddie.win/)
   - ExpEnv: [CALVIN](http://calvin.cs.uni-freiburg.de/)
+
+- [Belief-Enriched Pessimistic Q-Learning against Adversarial State Perturbations](https://arxiv.org/abs/2403.04050)
+  - Xiaolin Sun and Zizhan Zheng
+  - Publisher: ICLR 2024
+  - Key: Robust Reinforcement Learning, Diffusion Models
+  - Code: [official](https://github.com/SliencerX/Belief-enriched-robust-Q-learning)
+  - ExpEnv: Atari
+
 
 ### NeurIPS 2023
 
