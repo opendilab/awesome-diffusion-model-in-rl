@@ -15,11 +15,13 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
-    - [ICLR 2025](#iclr-2025)(**<font color="red">New!!!</font>**)
+    - [ICML 2025](#icml-2025)
+    - [ICLR 2025](#iclr-2025)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2024](#icml-2024)
-    - [ICLR 2024](#iclr-2024)
     - [CVPR 2024](#cvpr-2024)
+    - [ICLR 2024](#iclr-2024)
+    - [NeurIPS 2023](#neurips-2023)
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
     - [ICRA 2023](#icra-2023)
@@ -190,6 +192,28 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+### ICML 2025
+
+- [Graph Diffusion for Robust Multi-Agent Coordination](https://openreview.net/pdf?id=T5IZ32ImAB#page=6.79)
+  - Xianghua Zeng, Hang Su, Zhengyi Wang, Zhiyuan LIN
+  - Key: multi-agent coordination, offline reinforcement learning, diffusion models, Multi-Agent Reinforcement Learning (MARL), offline RL, graph diffusion models, policy robustness.
+  - ExpEnv: Multi-Agent Particle Environments (MPE) (Spread, Tag, World tasks), Multi-Agent MuJoCo (MAMuJoCo) (2-agent halfcheetah, 2-agent ant, 4-agent ant), StarCraft Multi-Agent Challenge (SMAC) 
+
+- [DiMa: Understanding the Hardness of Online Matching Problems via Diffusion Models](https://openreview.net/pdf?id=I9DSsCBwG0)
+  - Boyu Zhang, Aocheng Shen, Bing Liu, Qiankun Zhang, Bin Yuan, Jing Wang, Shenghao Liu, Xianjun Deng
+  - Key: Online Bipartite Matching (OBM), Diffusion Model, Reinforcement Learning, hardness of combinatorial optimization, DDPMs, shortcut policy gradient (SPG), AI-enhanced combinatorial optimization.
+  - ExpEnv: fractional OBM, OBM with random arrivals, OBM with stochastic rewards, thick-z graph instances.
+  
+- [RobustLight: Improving Robustness via Diffusion Reinforcement Learning for Traffic Signal Control](https://openreview.net/pdf?id=YGjd2xw98G)
+  - Mingyuan Li, Jiahao Wang, Guangsheng Yu, Xu Wang, Qianrun Chen, Wei Ni, Lixiang Li, Haipeng Peng
+  - Key: reinforcement learning, diffusion, traffic signal control (TSC), robustness, adversarial attacks, missing data, dynamic state infilling.
+  - ExpEnv: Cityflow (simulator), JiNan Datasets (JiNan1, JiNan2, JiNan3), HangZhou Datasets (HangZhou1, HangZhou2), New York Datasets (Newyork1, Newyork2).
+  
+- [Explainable Concept Generation through Vision-Language Preference Learning for Understanding Neural Networks' Internal Representations](https://openreview.net/pdf?id=koGlzcbXt3#page=5.74)
+  - Aditya Taparia, Som Sagar, Ransalu Senanayake
+  - Key: Explainable AI (XAI), Concept Generation, Vision-Language Models, Reinforcement Learning, Preference Learning, RL-based preference optimization (RLPO), TCAV, Generative Models, Understanding Neural Networks' Internal Representations, Diffusion Models (Stable Diffusion/SD), Deep Q-Network (DQN).
+  - ExpEnv: GoogleNet, InceptionV3, ViT, Swin (CNN-based and Transformer-based classifiers pre-trained on ImageNet).
+  
 ### ICLR 2025
 
 - [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://openreview.net/forum?id=SI2hI0frk6)  
