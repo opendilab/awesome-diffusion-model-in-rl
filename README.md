@@ -15,6 +15,7 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
+    - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [NeurIPS 2024](#neurips-2024)
@@ -196,6 +197,58 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+
+### NeurIPS 2025
+
+- [Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning](https://openreview.net/forum?id=7ZVRlBFuEv)
+  - Siyan Zhao, Devaansh Gupta, Qinqing Zheng, Aditya Grover
+  - Key: diffusion language models, post-training, reinforcement learning, reasoning, large language models
+  - ExpEnv: Diffusion LLM environments (masked dLLMs)
+
+- [Don't Trade Off Safety: Diffusion Regularization for Constrained Offline RL](https://openreview.net/forum?id=eSIRst0WVy)
+  - Junyu Guo, Zhi Zheng, Donghao Ying, Ming Jin, Shangding Gu, Costas Spanos, Javad Lavaei
+  - Key: Offline Reinforcement Learning, Safe Reinforcement Learning, Diffusion Models, Constrained RL
+  - ExpEnv: generic offline RL datasets / robot learning tasks
+
+- [Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models](https://openreview.net/forum?id=aDTcN3yZGE)
+  - Zemin Huang, Zhiyang Chen, Zijun Wang, Tiancheng Li, Guo-Jun Qi
+  - Key: Reinforcement Learning, Diffusion Language Models, Reasoning, Diffusion Chain of Lateral Thought
+  - ExpEnv: DCoLT
+
+- [GenPO: Generative Diffusion Models Meet On-Policy Reinforcement Learning](https://openreview.net/forum?id=BmRNz1TpCc)
+  - Shutong Ding, Ke Hu, Shan Zhong, Haoyang Luo, Weinan Zhang, Jingya Wang, Jun Wang, Ye Shi
+  - Key: Reinforcement Learning, On-Policy Reinforcement Learning, Generative Diffusion Models, Policy Optimization
+  - ExpEnv: IsaacLab
+
+- [ADG: Ambient Diffusion-Guided Dataset Recovery for Corruption-Robust Offline Reinforcement Learning](https://openreview.net/forum?id=8fECf5YbJY)
+  - Zeyuan Liu, Zhihe Yang, Jiawei Xu, Rui Yang, Jiafei Lyu, Baoxiang Wang, Yunjian Xu, Xiu Li
+  - Key: Offline Reinforcement Learning, Dataset Recovery, Diffusion Models, Offline RL Robustness
+  - ExpEnv: MuJoCo, Kitchen, Adroit
+
+- [State-Covering Trajectory Stitching for Diffusion Planners](https://openreview.net/forum?id=GEzd5K5s5u)
+  - Kyowoon Lee, Jaesik Choi
+  - Key: Offline Reinforcement Learning, Diffusion Models, Trajectory Optimization, Trajectory Stitching, Planning
+  - ExpEnv: Offline goal-conditioned RL benchmarks
+
+- [MMaDA: Multimodal Large Diffusion Language Models](https://openreview.net/forum?id=wczmXLuLGd)
+  - Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang
+  - Key: Multimodal Diffusion Models, Diffusion Large Language Models, Reinforcement Learning, Multimodal Understanding, Text-to-Image Generation
+  - ExpEnv: multimodal reasoning, text-to-image generation, and multimodal understanding benchmarks
+
+- [Uncertainty-Aware Multi-Objective Reinforcement Learning-Guided Diffusion Models for 3D De Novo Molecular Design](https://openreview.net/forum?id=lu4cGylISh)
+  - Lianghong Chen, Dongkyu Eugene Kim, Mike Domaratzki, Pingzhao Hu
+  - Key: 3D Molecular Design, Diffusion Models, Multi-Objective Reinforcement Learning, Uncertainty Quantification, Deep Learning
+  - ExpEnv: 3D molecular generation
+
+- [Prior-Guided Diffusion Planning for Offline Reinforcement Learning](https://openreview.net/forum?id=lC4WKmTScD)
+  - Donghyeon Ki, JunHyeok Oh, Seong-Woong Shim, Byung-Jun Lee
+  - Key: Diffusion Models, Offline Reinforcement Learning, Planning, Guided Sampling
+  - ExpEnv: Long-horizon Offline RL benchmarks
+
+- [Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](https://openreview.net/forum?id=SbGtQpm2vP)
+  - Xianghua Zeng, Hao Peng, Yicheng Pan, Angsheng Li, Guanlin Wu
+  - Key: Offline Reinforcement Learning, Diffusion Models, Hierarchical Diffusion, Long-horizon Planning, Trajectory Modeling
+  - ExpEnv: Long-horizon offline RL benchmarks
 
 ### ICML 2025
 
