@@ -16,6 +16,7 @@ Welcome to follow and star!
   - [Papers](#papers)
     - [Arxiv](#arxiv)
     - [ICML 2026](#icml-2026)
+    - [ICLR 2026](#iclr-2026)
     - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
@@ -230,6 +231,38 @@ format:
   - Shuchen Xue, Chongjian Ge, Shilong Zhang, Yichen Li, Zhi-Ming Ma
   - Key: advantage-weighted matching, diffusion RL, score/flow matching alignment, lower-variance policy gradients
   - ExpEnv: GenEval, OCR, and PickScore benchmarks on Stable Diffusion 3.5 Medium and FLUX
+
+### ICLR 2026
+
+- [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/forum?id=k0Kb1ynFbt)
+  - Chengyang Ying, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu
+  - Key: diffusion exploration policy, score-based intrinsic reward, unsupervised RL exploration
+  - ExpEnv: Maze2d and URLB benchmarks
+
+- [Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation](https://openreview.net/forum?id=mIeKe74W43)
+  - Guojian Zhan, Letian Tao, Pengcheng Wang, Yixiao Wang, Yuxin Chen, Yiheng Li, Hongyang Li, Masayoshi Tomizuka, Shengbo Eben Li
+  - Key: mean-flow policy, instantaneous velocity constraint, one-step flow action generation
+  - ExpEnv: Robomimic and OGBench robotic manipulation tasks
+
+- [Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation](https://openreview.net/forum?id=hRuTBS07C7)
+  - Xintong Duan, Yutong He, Fahim Tajwar, Ruslan Salakhutdinov, J Zico Kolter, Jeff Schneider
+  - Key: consistency trajectory distillation, reward-aware planner compression, efficient offline diffusion planning
+  - ExpEnv: Gym MuJoCo, FrankaKitchen, and long-horizon planning benchmarks
+
+- [Dichotomous Diffusion Policy Optimization](https://openreview.net/forum?id=R8y089OGoo)
+  - Ruiming Liang, Yinan Zheng, Kexin Zheng, Tianyi Tan, Jianxiong Li, Liyuan Mao, Zhihao Wang, Guang Chen, Hangjun Ye, Jingjing Liu, Jinqiao Wang, Xianyuan Zhan
+  - Key: dual diffusion-policy optimization, reward-max/reward-min controllable inference, stable policy improvement
+  - ExpEnv: ExORL, OGBench, and NAVSIM autonomous-driving VLA evaluation
+
+- [Flow Matching Policy Gradients](https://openreview.net/forum?id=eoEmoKoQpJ)
+  - David McAllister, Songwei Ge, Brent Yi, Chung Min Kim, Ethan Weber, Hongsuk Choi, Haiwen Feng, Angjoo Kanazawa
+  - Key: flow matching policy gradient, on-policy optimization, expressive continuous-action policy learning
+  - ExpEnv: continuous control benchmarks
+
+- [Flow Actor-Critic for Offline Reinforcement Learning](https://openreview.net/forum?id=wuncwN7iZN)
+  - Jongseong Chae, Jongeui Park, Yongjae Shin, Gyeongmin Kim, Seungyul Han, Youngchul Sung
+  - Key: flow-based actor-critic, conservative critic regularization, robust offline RL optimization
+  - ExpEnv: D4RL and OGBench
 
 ### NeurIPS 2025
 
