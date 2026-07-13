@@ -679,6 +679,13 @@ format:
   - Key: Reinforcement Learning, Generative Model, Diffusion Model, Flow Model
   - Code: [official](https://github.com/CleanDiffuserTeam/CleanDiffuser)
 
+- [VeRL-Omni](https://github.com/verl-project/verl-omni)
+  - Yongxiang Huang and Cheung Kawai and Jingan Zhou and Yingshu Chen and openYuanrong Team and Xibin Wu
+  - Publisher: GitHub
+  - Key: Reinforcement Learning, Multimodal Generation, Diffusion Model, Flow Model, Omni-Modality
+  - Code: [official](https://github.com/verl-project/verl-omni)
+  - Docs: [website](https://verl-omni.readthedocs.io/en/latest/index.html)
+
 ## Contributing
 
 Our purpose is to make this repo even better. If you are interested in contributing, please refer to [HERE](CONTRIBUTING.md) for instructions in contribution.
