@@ -15,6 +15,7 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
+    - [ECCV 2026](#eccv-2026)
     - [ICML 2026](#icml-2026)
     - [ICLR 2026](#iclr-2026)
     - [NeurIPS 2025](#neurips-2025)
@@ -199,6 +200,15 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+
+### ECCV 2026
+
+- [DriveVA: Video Action Models are Zero-Shot Drivers](https://link.springer.com/chapter/10.1007/978-3-032-37718-0_19)
+  - Mengmeng Liu, Diankun Zhang, Jiuming Liu, Jianfeng Cui, Hongwei Xie, Guang Chen, Hangjun Ye, Michael Ying Yang, Francesco Nex, Hao Cheng
+  - Publisher: ECCV 2026
+  - Key: video-action diffusion, world model, autonomous driving, zero-shot generalization
+  - Code: [official](https://github.com/xiaomi-mlab/DriveVA)
+  - ExpEnv: NAVSIM, nuScenes, Bench2Drive
 
 ### ICML 2026
 
