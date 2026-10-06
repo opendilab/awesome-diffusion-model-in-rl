@@ -64,6 +64,13 @@ format:
 
 ### Arxiv
 
+- [MEND: RL For Flow Models via Proximal Velocity Matching](https://arxiv.org/abs/2610.05954)
+  - Shreshth Saini, Neil Birkbeck, Yilin Wang, Balu Adsumilli, Alan C. Bovik
+  - arXiv 2026
+  - Key: flow matching, reinforcement learning, reward post-training, proximal velocity matching
+  - Code: [official](https://github.com/shreshthsaini/MEND-RL)
+  - ExpEnv: DrawBench text-to-image evaluation with Stable Diffusion 3.5 Medium
+
 - [Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning](https://arxiv.org/abs/2506.21427)
   - Prajwal Koirala, Cody Fleming
   - Key: Offline RL, Flow Matching, Behavior Cloning, Goal-Conditioned RL, Shortcut Models
