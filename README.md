@@ -15,6 +15,7 @@ Welcome to follow and star!
     - [Advantage](#advantage)
   - [Papers](#papers)
     - [Arxiv](#arxiv)
+    - [NeurIPS 2026](#neurips-2026)
     - [ICML 2026](#icml-2026)
     - [ICLR 2026](#iclr-2026)
     - [NeurIPS 2025](#neurips-2025)
@@ -199,6 +200,14 @@ format:
   - Key: Goal-Conditioned Imitation Learning, Robotics, Classifier-free
   - ExpEnv: CALVIN, Block-Push, Relay Kitchen
 
+
+### NeurIPS 2026
+
+- [Generative Actor-Critic with Soft Bridge Policies](https://arxiv.org/abs/2605.08733)
+  - Ke He, Le He, Shunpu Tang, Yafei Wang, Lisheng Fan
+  - Key: one-step generative policy, stochastic bridge, maximum-entropy RL, closed-form path KL, online actor-critic
+  - ExpEnv: DeepMind Control Suite (Humanoid, Dog) and HumanoidBench (H1), 12 tasks
+  - Code: [official](https://github.com/skypitcher/soft_gac_jax)
 
 ### ICML 2026
 
